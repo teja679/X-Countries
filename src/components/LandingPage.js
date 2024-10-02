@@ -15,7 +15,7 @@ const LandingPage = () => {
             setLoading(false)
             // console.log(fetchedData.data[0])
         } catch (err) {
-            console.log("Error fetching data: ", err)
+            console.error("Error fetching data: ", err)
             setError("Error fetching data: ", err)
         }
     }
